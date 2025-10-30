@@ -1,0 +1,47 @@
+ .footer-custom {
+    background-color: #42357F; /* Warna navbar */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: #ffb703; /* Kuning dari navbar hover */
+  }
+
+  .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  footer p, footer li, footer a, footer h5 {
+    color: #ffffff;
+  }
+
+  footer h5 {
+    font-weight: 700;
+  }
+
+    @media (max-width: 768px) {
+    .footer-custom {
+      text-align: center;
+    }
+    .footer-links a {
+      font-size: 14px;
+    }
+  }
